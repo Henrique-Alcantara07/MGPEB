@@ -49,7 +49,7 @@ Se qualquer uma falhar, o módulo vai para a lista de **alertas** e o motivo é 
 ```
 .
 ├── mgpeb.py             # Versão em script Python
-├── aurora_siger.ipynb   # Versão em notebook, com explicações passo a passo
+├── mgpeb.ipynb   # Versão em notebook, com explicações passo a passo
 └── README.md
 ```
 
