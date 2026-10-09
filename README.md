@@ -95,14 +95,6 @@ Com os dados de exemplo, o processamento segue a fila ordenada por prioridade:
 
 O gráfico final mostra o combustível caindo a 2% por minuto, a partir de 90%, e cruzando o limite mínimo de 80% aos **5 minutos** de descida.
 
-## 🔧 Possíveis melhorias
-
-- Ordenar por mais de um critério (prioridade e depois criticidade)
-- Permitir o cadastro de novos módulos pelo usuário
-- Simular o consumo de combustível individual de cada módulo
-- Contar comparações dos algoritmos e plotar o crescimento da complexidade
-- Separar o código em módulos (`ordenacao.py`, `busca.py`, etc.)
-
 ## 👤 Autores
 
 Desenvolvido pelos integrantes:
