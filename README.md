@@ -2,6 +2,9 @@
 
 **Sistema de Gerenciamento de Pouso e Estabilização**
 
+> 🎓 **Atividade acadêmica da FIAP**, desenvolvida para o curso de **Ciência da Computação**.
+> Tema: *A Aurora Ajusta a Trajetória na Aproximação a Marte* (**MGPEB**).
+
 Simulação em Python do controle de pouso de módulos espaciais em uma base. O projeto aplica, em um cenário único, estruturas de dados lineares, algoritmos de ordenação e busca, lógica booleana e modelagem matemática.
 
 ---
@@ -104,4 +107,4 @@ O gráfico final mostra o combustível caindo de 90% a 2% por minuto e cruzando 
 ## 👤 Autores
 
 Desenvolvido pelos integrantes:
-- Henrique Floriano Alcantara - RM: 575651
+- Henrique Floriano Alcantara - RM 575651
