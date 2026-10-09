@@ -48,8 +48,8 @@ Se qualquer uma falhar, o módulo vai para a lista de **alertas** e o motivo é 
 
 ```
 .
-├── mgpeb.py             # Versão em script Python
-├── mgpeb.ipynb   # Versão em notebook, com explicações passo a passo
+├── mgpeb.py       # Versão em script Python
+├── mgpeb.ipynb    # Versão em notebook, com explicações passo a passo
 └── README.md
 ```
 
@@ -58,12 +58,11 @@ Se qualquer uma falhar, o módulo vai para a lista de **alertas** e o motivo é 
 - Python 3.8 ou superior
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
-- Jupyter (apenas para usar o notebook)
 
-Instalação das dependências:
+No **Google Colab**, NumPy e Matplotlib já vêm instalados, então não é necessário instalar nada. Para rodar o script localmente:
 
 ```bash
-pip install numpy matplotlib jupyter
+pip install numpy matplotlib
 ```
 
 ## ▶️ Como executar
@@ -74,13 +73,13 @@ pip install numpy matplotlib jupyter
 python mgpeb.py
 ```
 
-**Notebook:**
+**Notebook (Google Colab):**
 
-```bash
-jupyter notebook aurora_siger.ipynb
-```
+1. Acesse [colab.research.google.com](https://colab.research.google.com/);
+2. Vá em **Arquivo → Fazer upload de notebook** e selecione `mgpeb.ipynb`;
+3. Execute as células em ordem (`Shift + Enter`).
 
-Execute as células em ordem. Na etapa de busca, o programa pede o nome de um módulo (por exemplo, `energia`). A busca ignora diferenças entre maiúsculas e minúsculas.
+Na etapa de busca, o programa pede o nome de um módulo (por exemplo, `energia`). A busca ignora diferenças entre maiúsculas e minúsculas.
 
 ## 🖥️ Resultado esperado
 
@@ -94,7 +93,7 @@ Com os dados de exemplo, o processamento segue a fila ordenada por prioridade:
 | Logística | ⚠️ Alerta | Sensores comprometidos |
 | Científico | ⚠️ Alerta | Combustível de 78% (abaixo de 80%) |
 
-O gráfico final mostra o combustível caindo de 90% a 2% por minuto e cruzando o limite mínimo de 80% aos **5 minutos** de descida.
+O gráfico final mostra o combustível caindo a 2% por minuto, a partir de 90%, e cruzando o limite mínimo de 80% aos **5 minutos** de descida.
 
 ## 🔧 Possíveis melhorias
 
@@ -107,4 +106,9 @@ O gráfico final mostra o combustível caindo de 90% a 2% por minuto e cruzando 
 ## 👤 Autores
 
 Desenvolvido pelos integrantes:
+
 - Henrique Floriano Alcantara - RM 575651
+- Katia Regina Bispo - RM 576044
+- João Pedro Candido Souza - RM 575884
+- Nicolas Klai de de França - RM 575343
+- Yago Souza Araujo -  RM 575200
