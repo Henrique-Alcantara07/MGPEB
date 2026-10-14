@@ -353,7 +353,7 @@ Esta seção reúne capturas de tela das principais funcionalidades do Aurora SI
 
 ![Gráfico de consumo de combustível](assets/screenshots/[7]_modelagem_matematica.png)
 
-### 🔌 Porta lógica AND
+### 🔌 Portas lógicas AND e NOT
 
 ![Representação da porta lógica AND](assets/logic-gates/portas_logicas.png)
 
