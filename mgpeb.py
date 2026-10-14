@@ -95,7 +95,7 @@ def exibir_resumo(pousados, alertas, fila):
     print(f"{len(fila)} módulo(s) aguardando.")
 
 def exibir_pilha(pilha):
-    print("\n[ 6 ] PILHA DE EVENTOS")
+    print("\n[ 5 ] PILHA DE EVENTOS")
     print("=" * 64)
     print("TOPO DA PILHA — evento mais recente (LIFO)")
     print("-" * 64)
@@ -164,7 +164,7 @@ def selection_sort(fila):
         # Troca os elementos de posição
         fila[i], fila[maior] = fila[maior], fila[i]
 
-def insertion_sort_nome(lista):
+def insertion_sort(lista):
     """
     Algoritmo de Ordenação por Inserção (Insertion Sort).
     Ordena os módulos alfabeticamente pelo nome (índice 0) para preparar a busca binária.
@@ -263,7 +263,7 @@ def busca_binaria(modulos, nome):
     return None
 
 def realizar_busca(modulos):
-    print("\n[ 5 ] BUSCA DE MÓDULO")
+    print("\n[ 6 ] BUSCA DE MÓDULO")
     print("=" * 64)
     nome_busca = input("Digite o nome do módulo que deseja procurar: ").strip()
 
@@ -298,7 +298,7 @@ selection_sort(fila_pouso)
 exibir_fila(fila_pouso)
 
 # 2. Ordena a lista auxiliar alfabeticamente para permitir a busca binária
-insertion_sort_nome(modulos_alfabeticos)
+insertion_sort(modulos_alfabeticos)
 
 # 3. Processa a fila (FIFO) e alimenta a pilha de eventos (LIFO)
 processar_pousos(fila_pouso, modulos_pousados, modulos_alerta, pilha_eventos)
