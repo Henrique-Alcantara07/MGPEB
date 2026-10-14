@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### Sistema de Gerenciamento de Pouso e Estabilização
+### Sistema de Gerenciamento de Pouso e Estabilização.
 
 *Simulação em Python do controle de pouso de módulos espaciais em uma base marciana.*
 
